@@ -25,7 +25,7 @@ window.weddingConfig = {
   inviteTitle: "Bizning to'yimizga",
   inviteSubtitle: "Marhamat qilib tashrif buyurishingizni so'raymiz",
   welcomeMessage:
-    "Hayotimizning eng baxtli kunida yonimizda bo'lishingizni, quvonchimizga sherik bo'lishingizni astoyidil xohlaymiz.",
+    "Hurmatli Hamkasblar! Sizni oilamizdagi quvonchli voqea — Munisbek hamda Hosilaxonlarning nikoh toʻyi munosabati bilan Nikoh toʻyimizga taklif etaman.", // "Hayotimizning eng baxtli kunida yonimizda bo'lishingizni, quvonchimizga sherik bo'lishingizni astoyidil xohlaymiz.",
   parentsMessage: "",
 
   /* ---------- TO'YXONA / MANZIL ---------- */
