@@ -8,18 +8,18 @@
 window.weddingConfig = {
 
   /* ---------- KELIN-KUYOV ISMLARI ---------- */
-  groomName: "Aziz",
-  brideName: "Malika",
+  groomName: "Munis",
+  brideName: "Hosila",
 
   /* ---------- SANA VA VAQT ----------
      Countdown (kun sanoq) shu sanagacha ishlaydi.
      Format: "YYYY-MM-DDTHH:MM:SS"  (24 soatlik vaqt) */
-  weddingDate: "2026-09-12T17:00:00",
+  weddingDate: "2026-08-16T19:00:00",
 
   /* Bosh sahifada ko'rinadigan sana/vaqt matni (istalgan formatda yozishingiz mumkin) */
-  displayDate: "12-sentabr, 2026-yil",
-  displayTime: "17:00",
-  displayWeekday: "Shanba",
+  displayDate: "16-avgust, 2026-yil",
+  displayTime: "19:00",
+  displayWeekday: "Yakshanba",
 
   /* ---------- TAKLIF MATNI ---------- */
   inviteTitle: "Bizning to'yimizga",
@@ -29,8 +29,8 @@ window.weddingConfig = {
   parentsMessage: "",
 
   /* ---------- TO'YXONA / MANZIL ---------- */
-  venueName: "\"Bog'i Rayhon\" to'yxonasi",
-  venueAddress: "Toshkent sh., Yunusobod tumani, Amir Temur ko'chasi, 45-uy",
+  venueName: "\"Tagan guzari\" to'yxonasi",
+  venueAddress: "Yangiariq tumani, Tagan qishlog'i, Yangi hayot ko'chasi, 45-uy",
 
   /* Google Xarita manzili qanday olinadi:
      1) Google Maps'da joyni toping -> "Share" -> "Embed a map" -> HTML kodidan
@@ -38,8 +38,8 @@ window.weddingConfig = {
      2) "Yo'nalish olish" tugmasi uchun oddiy Google Maps havolasini
         mapDirectionsUrl ga qo'ying (masalan, joy nomini qidiruv linki). */
   mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11979.0!2d69.2401!3d41.3111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDE4JzQwLjAiTiA2OcKwMTQnMjQuNCJF!5e0!3m2!1sen!2s!4v1700000000000",
-  mapDirectionsUrl: "https://maps.google.com/?q=Bog'i+Rayhon+to'yxonasi+Toshkent",
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19978.954700040988!2d60.6632662330078!3d41.413872899930574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41dfbf87351c141b%3A0x4c60c87ca36cebb3!2sTagan%20guzari%20(To'yxona)!5e1!3m2!1sru!2s!4v1785086722606!5m2!1sru!2s",
+  mapDirectionsUrl: "https://maps.app.goo.gl/uibforLzsSMscn3D7",
 
   /* ---------- RASMLAR ----------
      Rasmlaringizni "assets/images/" papkasiga qo'ying va nomini shu yerga yozing.
@@ -63,5 +63,5 @@ window.weddingConfig = {
 
   /* ---------- YAKUNIY QISM ---------- */
   footerMessage: "Sizni kutamiz!",
-  footerNames: "Aziz & Malika"
+  footerNames: "Munis & Hosila"
 };
