@@ -8,8 +8,8 @@
 window.weddingConfig = {
 
   /* ---------- KELIN-KUYOV ISMLARI ---------- */
-  groomName: "Munis",
-  brideName: "Hosila",
+  groomName: "Munisbek",
+  brideName: "Hosilaxon",
 
   /* ---------- SANA VA VAQT ----------
      Countdown (kun sanoq) shu sanagacha ishlaydi.
@@ -63,5 +63,5 @@ window.weddingConfig = {
 
   /* ---------- YAKUNIY QISM ---------- */
   footerMessage: "Sizni kutamiz!",
-  footerNames: "Munis & Hosila"
+  footerNames: "Munisbek & Hosilaxon"
 };
