@@ -8,18 +8,18 @@
 window.weddingConfig = {
 
   /* ---------- KELIN-KUYOV ISMLARI ---------- */
-  groomName: "Aziz",
-  brideName: "Malika",
+  groomName: "Munisbek",
+  brideName: "Hosilaxon",
 
   /* ---------- SANA VA VAQT ----------
      Countdown (kun sanoq) shu sanagacha ishlaydi.
      Format: "YYYY-MM-DDTHH:MM:SS"  (24 soatlik vaqt) */
-  weddingDate: "2026-09-12T17:00:00",
+  weddingDate: "2026-08-16T19:00:00",
 
   /* Bosh sahifada ko'rinadigan sana/vaqt matni (istalgan formatda yozishingiz mumkin) */
-  displayDate: "12-sentabr, 2026-yil",
-  displayTime: "17:00",
-  displayWeekday: "Shanba",
+  displayDate: "16-avgust, 2026-yil",
+  displayTime: "19:00",
+  displayWeekday: "Yakshanba",
 
   /* ---------- TAKLIF MATNI ---------- */
   inviteTitle: "Bizning to'yimizga",
@@ -29,8 +29,8 @@ window.weddingConfig = {
   parentsMessage: "",
 
   /* ---------- TO'YXONA / MANZIL ---------- */
-  venueName: "\"Bog'i Rayhon\" to'yxonasi",
-  venueAddress: "Toshkent sh., Yunusobod tumani, Amir Temur ko'chasi, 45-uy",
+  venueName: "\"Tagan guzari\" to'yxonasi",
+  venueAddress: "Toshkent sh., Yangiariq tumani, Yangi hayot ko'chasi, 45-uy",
 
   /* Google Xarita manzili qanday olinadi:
      1) Google Maps'da joyni toping -> "Share" -> "Embed a map" -> HTML kodidan
@@ -38,8 +38,8 @@ window.weddingConfig = {
      2) "Yo'nalish olish" tugmasi uchun oddiy Google Maps havolasini
         mapDirectionsUrl ga qo'ying (masalan, joy nomini qidiruv linki). */
   mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11979.0!2d69.2401!3d41.3111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDE4JzQwLjAiTiA2OcKwMTQnMjQuNCJF!5e0!3m2!1sen!2s!4v1700000000000",
-  mapDirectionsUrl: "https://maps.google.com/?q=Bog'i+Rayhon+to'yxonasi+Toshkent",
+    "https://www.google.com/maps/place/Tagan+guzari+(To'yxona)/@41.4080917,60.6571966,416m/data=!3m1!1e3!4m6!3m5!1s0x41dfbf87351c141b:0x4c60c87ca36cebb3!8m2!3d41.4071072!4d60.6599191!16s%2Fg%2F11rsv9w1pr?entry=ttu&g_ep=EgoyMDI2MDcxOS4wIKXMDSoASAFQAw%3D%3D",
+  mapDirectionsUrl: "https://www.google.com/maps/place/Tagan+guzari+(To'yxona)",
 
   /* ---------- RASMLAR ----------
      Rasmlaringizni "assets/images/" papkasiga qo'ying va nomini shu yerga yozing.
