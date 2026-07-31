@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>Munisbek & Hosilaxon — To'y taklifnomasi</title>
-<meta name="description" content="Munisbek va Hosilaxonning to'yiga sizni taklif qilamiz — 12-sentabr, 2026-yil.">
+<title>Aziz & Malika — To'y taklifnomasi</title>
+<meta name="description" content="Aziz va Malikaning to'yiga sizni taklif qilamiz — 12-sentabr, 2026-yil.">
 
 <!-- ==========================================================================
      IJTIMOIY TARMOQ PREVIEW (Telegram, WhatsApp, Facebook, Instagram)
@@ -13,7 +13,7 @@
 
      Netlify'ga deploy qilgach:
      1) "SIZNING-SAYT-MANZILINGIZ" ni haqiqiy domenga almashtiring
-        (masalan https://munisbek-hosilaxon-toy.netlify.app)
+        (masalan https://aziz-malika-toy.netlify.app)
      2) Ism/sana o'zgarsa, quyidagi og:title/og:description matnlarini ham
         yangilang (bu qatorlar JS orqali emas, qo'lda tahrirlanadi — chunki
         ijtimoiy tarmoq botlari JavaScript'ni ishga tushirmaydi).
@@ -22,36 +22,42 @@
         ishga tushiring: python3 generate_og_image.py
      ========================================================================== -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="Munisbek & Hosilaxon — To'y taklifnomasi">
-<meta property="og:description" content="Munisbek va Hosilaxonning to'yiga sizni taklif qilamiz — 12-sentabr, 2026-yil.">
+<meta property="og:title" content="Aziz & Malika — To'y taklifnomasi">
+<meta property="og:description" content="Aziz va Malikaning to'yiga sizni taklif qilamiz — 12-sentabr, 2026-yil.">
 <meta property="og:image" content="https://SIZNING-SAYT-MANZILINGIZ.netlify.app/assets/images/og-cover.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:url" content="https://SIZNING-SAYT-MANZILINGIZ.netlify.app/">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Munisbek & Hosilaxon — To'y taklifnomasi">
-<meta name="twitter:description" content="Munisbek va Hosilaxonning to'yiga sizni taklif qilamiz — 12-sentabr, 2026-yil.">
+<meta name="twitter:title" content="Aziz & Malika — To'y taklifnomasi">
+<meta name="twitter:description" content="Aziz va Malikaning to'yiga sizni taklif qilamiz — 12-sentabr, 2026-yil.">
 <meta name="twitter:image" content="https://SIZNING-SAYT-MANZILINGIZ.netlify.app/assets/images/og-cover.jpg">
-<meta name="msapplication-TileColor" content="#c8a25e">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<style>
+  .map-frame {
+    border: 0;
+  }
+</style>
 </head>
 <body>
 
 <!-- Cover / opening screen: real click here reliably unlocks audio autoplay -->
 <div class="cover" id="cover">
   <div class="cover-content">
-    <p class="eyebrow">Siz taklif qilindingiz</p>
+    <p class="eyebrow">Sizni taklif qilamiz</p>
     <div class="cover-names">
       <span id="coverGroom">Munisbek</span>
       <span class="ampersand">&amp;</span>
       <span id="coverBride">Hosilaxon</span>
     </div>
     <div class="divider"><span></span><i>&#10047;</i><span></span></div>
-    <p class="cover-date" id="coverDate">12-sentabr, 2026-yil</p>
+    <p class="cover-date" id="coverDate">16-avgust, 2026-yil</p>
     <button class="btn-open" id="openBtn">&#10047; Taklifnomani ochish &#10047;</button>
   </div>
 </div>
@@ -78,7 +84,7 @@
       <span id="brideNameHero">Hosilaxon</span>
     </div>
     <div class="divider"><span></span><i>&#10047;</i><span></span></div>
-    <p class="hero-date" id="heroDate">12 сентябрь, 2026</p>
+    <p class="hero-date" id="heroDate">16-avgust, 2026-yil</p>
   </div>
   <div class="scroll-down" id="scrollDown">
     <span></span>
@@ -136,13 +142,13 @@
 </section>
 
 <!-- GALLERY -->
-<section class="gallery-section" data-animate>
+<!-- <section class="gallery-section" data-animate>
   <div class="section-heading">
     <p class="eyebrow">Xotira lahzalari</p>
     <div class="divider small"><span></span><i>&#10047;</i><span></span></div>
   </div>
   <div class="gallery-grid" id="galleryGrid"></div>
-</section>
+</section> -->
 
 <!-- LOCATION -->
 <section class="location-section" data-animate>
@@ -153,7 +159,7 @@
     <p class="venue-address" id="venueAddress"></p>
   </div>
   <div class="map-wrap">
-    <iframe id="mapFrame" src="" width="100%" height="100%" allowfullscreen="" loading="lazy" title="To'y manzili xaritasi"></iframe>
+    <iframe id="mapFrame" class="map-frame" src="" width="100%" height="100%" allowfullscreen="" loading="lazy" title="Wedding location map"></iframe>
   </div>
   <a class="btn-gold" id="directionsBtn" href="#" target="_blank" rel="noopener">Yo'nalish olish</a>
 </section>

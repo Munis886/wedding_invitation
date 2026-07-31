@@ -25,12 +25,12 @@ window.weddingConfig = {
   inviteTitle: "Bizning to'yimizga",
   inviteSubtitle: "Marhamat qilib tashrif buyurishingizni so'raymiz",
   welcomeMessage:
-    "Hayotimizning eng baxtli kunida yonimizda bo'lishingizni, quvonchimizga sherik bo'lishingizni astoyidil xohlaymiz.",
+    "Hurmatli Hamkasblar! Sizni oilamizdagi quvonchli voqea — Munisbek hamda Hosilaxonlarning nikoh toʻyi munosabati bilan Nikoh toʻyimizga taklif etaman.", // "Hayotimizning eng baxtli kunida yonimizda bo'lishingizni, quvonchimizga sherik bo'lishingizni astoyidil xohlaymiz.",
   parentsMessage: "",
 
   /* ---------- TO'YXONA / MANZIL ---------- */
   venueName: "\"Tagan guzari\" to'yxonasi",
-  venueAddress: "Toshkent sh., Yangiariq tumani, Yangi hayot ko'chasi, 45-uy",
+  venueAddress: "Yangiariq tumani, Tagan qishlog'i, Yangi hayot ko'chasi, 45-uy",
 
   /* Google Xarita manzili qanday olinadi:
      1) Google Maps'da joyni toping -> "Share" -> "Embed a map" -> HTML kodidan
@@ -38,8 +38,8 @@ window.weddingConfig = {
      2) "Yo'nalish olish" tugmasi uchun oddiy Google Maps havolasini
         mapDirectionsUrl ga qo'ying (masalan, joy nomini qidiruv linki). */
   mapEmbedUrl:
-    "https://www.google.com/maps/place/Tagan+guzari+(To'yxona)/@41.4080917,60.6571966,416m/data=!3m1!1e3!4m6!3m5!1s0x41dfbf87351c141b:0x4c60c87ca36cebb3!8m2!3d41.4071072!4d60.6599191!16s%2Fg%2F11rsv9w1pr?entry=ttu&g_ep=EgoyMDI2MDcxOS4wIKXMDSoASAFQAw%3D%3D",
-  mapDirectionsUrl: "https://www.google.com/maps/place/Tagan+guzari+(To'yxona)",
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19978.954700040988!2d60.6632662330078!3d41.413872899930574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41dfbf87351c141b%3A0x4c60c87ca36cebb3!2sTagan%20guzari%20(To'yxona)!5e1!3m2!1sru!2s!4v1785086722606!5m2!1sru!2s",
+  mapDirectionsUrl: "https://maps.app.goo.gl/uibforLzsSMscn3D7",
 
   /* ---------- RASMLAR ----------
      Rasmlaringizni "assets/images/" papkasiga qo'ying va nomini shu yerga yozing.
@@ -63,5 +63,5 @@ window.weddingConfig = {
 
   /* ---------- YAKUNIY QISM ---------- */
   footerMessage: "Sizni kutamiz!",
-  footerNames: "Aziz & Malika"
+  footerNames: "Munisbek & Hosilaxon"
 };
